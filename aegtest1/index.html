@@ -1,0 +1,82 @@
+<?php
+
+require_once __DIR__ . '/vendor/autoload.php';
+require_once __DIR__ . '/../../_helpers/vendor/autoload.php';
+
+use App\LandInit;
+use App\Logs;
+use App\Exceptions\InvalidPhoneNumberException;
+use App\Exceptions\ExtraInitException;
+use App\Exceptions\PumaInitException;
+use Service_landing\Helpers\Filter;
+use Service_landing\Helpers\Http;
+use Service_landing\Helpers\Url;
+
+header("Content-Security-Policy: default-src * 'unsafe-inline' 'unsafe-eval'");
+header("X-Frame-Options: SAMEORIGIN");
+header('X-Content-Type-Options: nosniff');
+header("Referrer-Policy: no-referrer");
+header("Permissions-Policy: microphone=()");
+
+$res = '';
+
+$sub_land = (!empty($_GET['sub_land'])) ? $_GET['sub_land'] : 'main';
+$currentUrl = ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+
+// if (empty($_GET['ext_id'])) {
+//     Http::redirect('https://www.google.com/');
+// }
+
+// if (!Filter::isWebview() && !in_array($sub_land, ['main'])) {
+//     $sub_land = $_GET['sub_land'] = 'sub_4';
+// }
+
+$init = new LandInit();
+
+$init->sub_land = $sub_land;
+$init->landingUrl = preg_replace('/\?.*/', '', $currentUrl);
+
+$init->wb_id = $_GET['ext_id'] ?? '';
+
+if (!$init->wb_id) {
+    try {
+        $wb_id = $init->pumaInit();
+        Http::redirect(Url::currentUri(), ['ext_id' => $wb_id]);
+    } catch (PumaInitException $e) {
+        $res = $e->getMessage();
+    }
+}
+
+unset($_GET['ext_id']);
+
+if ($init->redis->exists("aegErrorBlock$init->wb_id")) {
+    header('Location: https://www.google.com/'); exit;
+}
+
+// $init->newAbonent();
+
+
+if (isset($_POST['msisdn']) && !$res) {
+    $init->phone = $_POST['msisdn'];
+    unset($_POST['msisdn']);
+    try {
+        $init->submit();
+    } catch (InvalidPhoneNumberException | ExtraInitException $e) {
+        $res = $e->getMessage();
+        Logs::log("phone submit error: wb_id=$init->wb_id, phone=$init->phone, text=$res");
+    }
+}
+
+
+// View
+$content = file_get_contents("lands/$sub_land/index.html");
+
+$content = str_replace('<head>', "<head>\n\t<base href=\"lands/$sub_land/\">", $content);
+$content = str_replace('</body>', "<script>document.querySelector('form').setAttribute('action', '$currentUrl')</script></body>", $content);
+$content = str_replace('.css', '.css?v=' . password_hash("random", PASSWORD_BCRYPT, ["cost" => 4]), $content);
+$content = str_replace('.js', '.js?v=' . password_hash("random", PASSWORD_BCRYPT, ["cost" => 4]), $content);
+
+if ($res) $content = str_replace('<p class="error"></p>', "<p class=\"error\">$res</p>", $content);
+else $content = str_replace('<p class="error"></p>', '', $content);
+
+echo $content;

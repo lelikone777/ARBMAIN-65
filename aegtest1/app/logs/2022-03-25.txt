@@ -1,0 +1,15 @@
+2022-03-25 11:27:58 Puma init: request: http://188.42.166.204/api/?method=link&host=aeg.games-universe.online&country=ae&operator=go4mobility_etisalat&custom=test1&key=Z8C72rz3lBgmTteZyDdVAfPawLQCO7ga-2BEpUWuEHBIc-3D, response: {"result":"success","url":"http:\/\/lp.games-universe.online\/aegtest1\/?ext_id=8301045885","wb_subscription_id":"8301045885","service_id":"17793","init_id":"in0.2676956995"}
+===
+2022-03-25 15:10:00 Puma init: request: http://188.42.166.204/api/?method=link&host=aeg.games-universe.online&country=ae&operator=go4mobility_etisalat&custom=test1&key=GMFzBSJxBal9aSeOVucBBq-2BOrPaaxqp2KKc5c4osD70-3D, response: {"result":"success","url":"http:\/\/lp.games-universe.online\/aegtest1\/?ext_id=8301256644","wb_subscription_id":"8301256644","service_id":"17793","init_id":"in0.2677117657"}
+===
+2022-03-25 15:10:02 Puma init: request: http://188.42.166.204/api/?method=link&host=aeg.games-universe.online&country=ae&operator=go4mobility_etisalat&custom=test1&key=m6yKzUErEClqDaqdA-2FAQIk3wuVRQ4zbN9LOKuPTks9c-3D, response: {"result":"success","url":"http:\/\/lp.games-universe.online\/aegtest1\/?ext_id=8301256657","wb_subscription_id":"8301256657","service_id":"17793","init_id":"in0.2677117665"}
+===
+2022-03-25 15:10:15 http://inspigate.com/go4mobility/init/extra request: phone=971567816611&subscription_id=8301256657 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2677117665\u0026payed=K7Ka0chJyER1wN-2FioZoFirZf0ve7rMUUhNNCD6n4O9Y-3D\u0026apireq=K7Ka0chJyER1wN-2FioZoFirZf0ve7rMUUhNNCD6n4O9Y-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17793\u0026wb_subscription_id=8301256657\u0026order_id=in0.2677117665\u0026abonent=971567816611","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2677117665\u0026payed=K7Ka0chJyER1wN-2FioZoFirZf0ve7rMUUhNNCD6n4O9Y-3D\u0026apireq=K7Ka0chJyER1wN-2FioZoFirZf0ve7rMUUhNNCD6n4O9Y-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17793\u0026wb_subscription_id=8301256657\u0026order_id=in0.2677117665\u0026abonent=971567816611","resultCode":null}
+===
+2022-03-25 15:11:07 http://inspigate.com/go4mobility/pin_submit request: wb_id=8301256657&phone=971567816611&pin=9675, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[Ok]]></status>
+  <message><![CDATA[Pin submitted successfully]]></message>
+</result>
+
+===

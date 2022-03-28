@@ -1,0 +1,86 @@
+2022-03-23 16:25:49 Puma init: request: http://188.42.166.204/api/?method=link&host=aeg.games-universe.online&country=ae&operator=go4mobility_etisalat&custom=test1&key=jjWuF3SRW7mhUEyW6cVCy1EDQ3J43oAJ-2Fcg1alrE-2BI8-3D, response: {"result":"success","url":"http:\/\/lp.games-universe.online\/aegtest1\/?ext_id=8299141592","wb_subscription_id":"8299141592","service_id":"17793","init_id":"in0.2675563235"}
+===
+2022-03-23 16:33:26 http://inspigate.com/go4mobility/init/extra request: phone=971567552718&subscription_id=8299141592 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2675563235\u0026payed=K7Ka0chJyER1wN-2FioZoFik-2FlyKjYBLhgQLhTf6CcJhk-3D\u0026apireq=K7Ka0chJyER1wN-2FioZoFik-2FlyKjYBLhgQLhTf6CcJhk-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17793\u0026wb_subscription_id=8299141592\u0026order_id=in0.2675563235\u0026abonent=971567552718","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2675563235\u0026payed=K7Ka0chJyER1wN-2FioZoFik-2FlyKjYBLhgQLhTf6CcJhk-3D\u0026apireq=K7Ka0chJyER1wN-2FioZoFik-2FlyKjYBLhgQLhTf6CcJhk-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17793\u0026wb_subscription_id=8299141592\u0026order_id=in0.2675563235\u0026abonent=971567552718","resultCode":null}
+===
+2022-03-23 16:33:46 http://inspigate.com/go4mobility/pin_submit request: wb_id=8299141592&phone=971567552718&pin=5810, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[Ok]]></status>
+  <message><![CDATA[Pin submitted successfully]]></message>
+</result>
+
+===
+2022-03-23 17:06:09 Puma init: request: http://188.42.166.204/api/?method=link&host=aeg.games-universe.online&country=ae&operator=go4mobility_etisalat&custom=test1&key=FTPAqBg7wGF3J1N5IVNvJwyjfTjoNRW7z9ISKrTUTAU-3D, response: {"result":"success","url":"http:\/\/lp.games-universe.online\/aegtest1\/?ext_id=8299177423","wb_subscription_id":"8299177423","service_id":"17793","init_id":"in0.2675590677"}
+===
+2022-03-23 17:27:39 Puma init: request: http://188.42.166.204/api/?method=link&host=aeg.games-universe.online&country=ae&operator=go4mobility_etisalat&custom=test1&key=ghSYc-2BK-2B6GfVXaxa-2FjcWcF5msKay-2BW40ICmSG3UmZJk-3D, response: {"result":"success","url":"http:\/\/lp.games-universe.online\/aegtest1\/?ext_id=8299197050","wb_subscription_id":"8299197050","service_id":"17793","init_id":"in0.2675605422"}
+===
+2022-03-23 17:33:14 Puma init: request: http://188.42.166.204/api/?method=link&host=aeg.games-universe.online&country=ae&operator=go4mobility_etisalat&custom=test1&key=kAD8YQnCxfIq1ySdMYHsY1qMGnIPlI1JImkwsRFV3Uw-3D, response: {"result":"success","url":"http:\/\/lp.games-universe.online\/aegtest1\/?ext_id=8299202111","wb_subscription_id":"8299202111","service_id":"17793","init_id":"in0.2675609184"}
+===
+2022-03-23 17:38:42 Puma init: request: http://188.42.166.204/api/?method=link&host=aeg.games-universe.online&country=ae&operator=go4mobility_etisalat&custom=test1&key=JSWo5r7R6b1q5FwT-2B-2FkCyh8IcAGMfpaW8FeXJ95PR-2F4-3D, response: {"result":"success","url":"http:\/\/lp.games-universe.online\/aegtest1\/?ext_id=8299207821","wb_subscription_id":"8299207821","service_id":"17793","init_id":"in0.2675613573"}
+===
+2022-03-23 17:40:38 Puma init: request: http://188.42.166.204/api/?method=link&host=aeg.games-universe.online&country=ae&operator=go4mobility_etisalat&custom=test1&key=UsYgaNXd1QGg5mGq1LHf-2BzitUo4L0ag-2Fq3LxeK-2FHpsg-3D, response: {"result":"success","url":"http:\/\/lp.games-universe.online\/aegtest1\/?ext_id=8299209761","wb_subscription_id":"8299209761","service_id":"17793","init_id":"in0.2675615012"}
+===
+2022-03-23 17:40:41 Puma init: request: http://188.42.166.204/api/?method=link&host=aeg.games-universe.online&country=ae&operator=go4mobility_etisalat&custom=test1&key=UsYgaNXd1QGg5mGq1LHf-2B9k8MBnWo5rDWiCBPdOXf-2Fg-3D, response: {"result":"success","url":"http:\/\/lp.games-universe.online\/aegtest1\/?ext_id=8299209795","wb_subscription_id":"8299209795","service_id":"17793","init_id":"in0.2675615039"}
+===
+2022-03-23 17:41:09 Puma init: request: http://188.42.166.204/api/?method=link&host=aeg.games-universe.online&country=ae&operator=go4mobility_etisalat&custom=test1&key=UsYgaNXd1QGg5mGq1LHf-2BwyjfTjoNRW7z9ISKrTUTAU-3D, response: {"result":"success","url":"http:\/\/lp.games-universe.online\/aegtest1\/?ext_id=8299210252","wb_subscription_id":"8299210252","service_id":"17793","init_id":"in0.2675615404"}
+===
+2022-03-23 17:42:10 Puma init: request: http://188.42.166.204/api/?method=link&host=aeg.games-universe.online&country=ae&operator=go4mobility_etisalat&custom=test1&key=DxedZkrHWP0eUKGu-2BJ-2BDszkmVIAIWrs5F3WzRhTVD-2Fc-3D, response: {"result":"success","url":"http:\/\/lp.games-universe.online\/aegtest1\/?ext_id=8299211206","wb_subscription_id":"8299211206","service_id":"17793","init_id":"in0.2675616108"}
+===
+2022-03-23 17:44:02 Puma init: request: http://188.42.166.204/api/?method=link&host=aeg.games-universe.online&country=ae&operator=go4mobility_etisalat&custom=test1&key=OjgWEfkNNrBCvyj5MCVbM9k8MBnWo5rDWiCBPdOXf-2Fg-3D, response: {"result":"success","url":"http:\/\/lp.games-universe.online\/aegtest1\/?ext_id=8299213258","wb_subscription_id":"8299213258","service_id":"17793","init_id":"in0.2675617616"}
+===
+2022-03-23 17:46:05 Puma init: request: http://188.42.166.204/api/?method=link&host=aeg.games-universe.online&country=ae&operator=go4mobility_etisalat&custom=test1&key=Lyb9-2BKA6bnmQIO-2BjiHWHoLTBMz0xmEJyHtCronw3eVU-3D, response: {"result":"success","url":"http:\/\/lp.games-universe.online\/aegtest1\/?ext_id=8299215374","wb_subscription_id":"8299215374","service_id":"17793","init_id":"in0.2675619241"}
+===
+2022-03-23 17:46:39 http://inspigate.com/go4mobility/init/extra request: phone=971567816611&subscription_id=8299215374 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2675619241\u0026payed=K7Ka0chJyER1wN-2FioZoFigPArRwdkRIfUENYPn4a86c-3D\u0026apireq=K7Ka0chJyER1wN-2FioZoFigPArRwdkRIfUENYPn4a86c-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17793\u0026wb_subscription_id=8299215374\u0026order_id=in0.2675619241\u0026abonent=971567816611","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2675619241\u0026payed=K7Ka0chJyER1wN-2FioZoFigPArRwdkRIfUENYPn4a86c-3D\u0026apireq=K7Ka0chJyER1wN-2FioZoFigPArRwdkRIfUENYPn4a86c-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17793\u0026wb_subscription_id=8299215374\u0026order_id=in0.2675619241\u0026abonent=971567816611","resultCode":null}
+===
+2022-03-23 17:46:58 Puma init: request: http://188.42.166.204/api/?method=link&host=aeg.games-universe.online&country=ae&operator=go4mobility_etisalat&custom=test1&key=LczAYDktrAB7PfPPEEfxtsZTXNPObwOuhJgbZIJTkWo-3D, response: {"result":"success","url":"http:\/\/lp.games-universe.online\/aegtest1\/?ext_id=8299216223","wb_subscription_id":"8299216223","service_id":"17793","init_id":"in0.2675619899"}
+===
+2022-03-23 17:47:44 http://inspigate.com/go4mobility/pin_submit request: wb_id=8299215374&phone=971567816611&pin=2974, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[Ok]]></status>
+  <message><![CDATA[Pin submitted successfully]]></message>
+</result>
+
+===
+2022-03-23 17:51:27 Puma init: request: http://188.42.166.204/api/?method=link&host=aeg.games-universe.online&country=ae&operator=go4mobility_etisalat&custom=test1&key=tG7bvjRx6lBIEc9s719jfXR-2BwYF8TRrRayx5b9xcnhM-3D, response: {"result":"success","url":"http:\/\/lp.games-universe.online\/aegtest1\/?ext_id=8299220693","wb_subscription_id":"8299220693","service_id":"17793","init_id":"in0.2675623458"}
+===
+2022-03-23 18:04:16 Puma init: request: http://188.42.166.204/api/?method=link&host=aeg.games-universe.online&country=ae&operator=go4mobility_etisalat&custom=test1&key=DMEi65GGi7AAeSZLHipAVKDpkGfpYpUiKTQWKzkVixs-3D, response: {"result":"success","url":"http:\/\/lp.games-universe.online\/aegtest1\/?ext_id=8299233840","wb_subscription_id":"8299233840","service_id":"17793","init_id":"in0.2675633915"}
+===
+2022-03-23 18:05:10 Puma init: request: http://188.42.166.204/api/?method=link&host=aeg.games-universe.online&country=ae&operator=go4mobility_etisalat&custom=test1&key=tO-2BuR-2F3PUBdOSlo4WGbfU1CzOxNqlom-2BAPSvjkJ-2BFMI-3D, response: {"result":"success","url":"http:\/\/lp.games-universe.online\/aegtest1\/?ext_id=8299234742","wb_subscription_id":"8299234742","service_id":"17793","init_id":"in0.2675634593"}
+===
+2022-03-23 18:05:57 Puma init: request: http://188.42.166.204/api/?method=link&host=aeg.games-universe.online&country=ae&operator=go4mobility_etisalat&custom=test1&key=tO-2BuR-2F3PUBdOSlo4WGbfUyPSlGzd8EdoZB31okZ6mYo-3D, response: {"result":"success","url":"http:\/\/lp.games-universe.online\/aegtest1\/?ext_id=8299235519","wb_subscription_id":"8299235519","service_id":"17793","init_id":"in0.2675635154"}
+===
+2022-03-23 18:09:48 Puma init: request: http://188.42.166.204/api/?method=link&host=aeg.games-universe.online&country=ae&operator=go4mobility_etisalat&custom=test1&key=8FchuyePoj9gSu3TXrNqMf0C1WjktUUtCGbul4q5faU-3D, response: {"result":"success","url":"http:\/\/lp.games-universe.online\/aegtest1\/?ext_id=8299239410","wb_subscription_id":"8299239410","service_id":"17793","init_id":"in0.2675638195"}
+===
+2022-03-23 18:10:19 Puma init: request: http://188.42.166.204/api/?method=link&host=aeg.games-universe.online&country=ae&operator=go4mobility_etisalat&custom=test1&key=ED6S9X7SKp8KHBzHpmpLV5C54L-2BFwGVP6Zt4CB2Tno0-3D, response: {"result":"success","url":"http:\/\/lp.games-universe.online\/aegtest1\/?ext_id=8299239926","wb_subscription_id":"8299239926","service_id":"17793","init_id":"in0.2675638612"}
+===
+2022-03-23 18:19:56 Puma init: request: http://188.42.166.204/api/?method=link&host=aeg.games-universe.online&country=ae&operator=go4mobility_etisalat&custom=test1&key=EoRQAlh6blR4PuJOlLoUa6CodVzjPlG4fMCy-2F4cR-2BCc-3D, response: {"result":"success","url":"http:\/\/lp.games-universe.online\/aegtest1\/?ext_id=8299249374","wb_subscription_id":"8299249374","service_id":"17793","init_id":"in0.2675646361"}
+===
+2022-03-23 18:20:42 Puma init: request: http://188.42.166.204/api/?method=link&host=aeg.games-universe.online&country=ae&operator=go4mobility_etisalat&custom=test1&key=HCZ216IE-2FJ5pA35VNFJ-2FStk8MBnWo5rDWiCBPdOXf-2Fg-3D, response: {"result":"success","url":"http:\/\/lp.games-universe.online\/aegtest1\/?ext_id=8299250141","wb_subscription_id":"8299250141","service_id":"17793","init_id":"in0.2675646925"}
+===
+2022-03-23 18:21:02 Puma init: request: http://188.42.166.204/api/?method=link&host=aeg.games-universe.online&country=ae&operator=go4mobility_etisalat&custom=test1&key=HCZ216IE-2FJ5pA35VNFJ-2FSvORv-2FBrZpRdTnvWgQyhlKY-3D, response: {"result":"success","url":"http:\/\/lp.games-universe.online\/aegtest1\/?ext_id=8299250474","wb_subscription_id":"8299250474","service_id":"17793","init_id":"in0.2675647175"}
+===
+2022-03-23 18:23:33 Puma init: request: http://188.42.166.204/api/?method=link&host=aeg.games-universe.online&country=ae&operator=go4mobility_etisalat&custom=test1&key=O2uw4G7PjMOUmOJm2GtkgIm-2Bslij1pnMDR1uC3zSwu4-3D, response: {"result":"success","url":"http:\/\/lp.games-universe.online\/aegtest1\/?ext_id=8299252608","wb_subscription_id":"8299252608","service_id":"17793","init_id":"in0.2675648907"}
+===
+2022-03-23 18:24:23 Puma init: request: http://188.42.166.204/api/?method=link&host=aeg.games-universe.online&country=ae&operator=go4mobility_etisalat&custom=test1&key=O2uw4G7PjMOUmOJm2GtkgDmQHN0FkLcWqeVDXZSnCQs-3D, response: {"result":"success","url":"http:\/\/lp.games-universe.online\/aegtest1\/?ext_id=8299253354","wb_subscription_id":"8299253354","service_id":"17793","init_id":"in0.2675649548"}
+===
+2022-03-23 18:24:38 Puma init: request: http://188.42.166.204/api/?method=link&host=aeg.games-universe.online&country=ae&operator=go4mobility_etisalat&custom=test1&key=O2uw4G7PjMOUmOJm2GtkgPPawLQCO7ga-2BEpUWuEHBIc-3D, response: {"result":"success","url":"http:\/\/lp.games-universe.online\/aegtest1\/?ext_id=8299253667","wb_subscription_id":"8299253667","service_id":"17793","init_id":"in0.2675649800"}
+===
+2022-03-23 18:28:07 Puma init: request: http://188.42.166.204/api/?method=link&host=aeg.games-universe.online&country=ae&operator=go4mobility_etisalat&custom=test1&key=AuQaCmsIvCsw4KxxRV-2BgpXR-2BwYF8TRrRayx5b9xcnhM-3D, response: {"result":"success","url":"http:\/\/lp.games-universe.online\/aegtest1\/?ext_id=8299256904","wb_subscription_id":"8299256904","service_id":"17793","init_id":"in0.2675652494"}
+===
+2022-03-23 18:29:17 http://inspigate.com/go4mobility/init/extra request: phone=971241124124&subscription_id=8299249374 extra init response: http_code=573, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2675646361\u0026payed=K7Ka0chJyER1wN-2FioZoFiiYi96RbEnlzVfyuoAnB5-2F4-3D\u0026apireq=K7Ka0chJyER1wN-2FioZoFiiYi96RbEnlzVfyuoAnB5-2F4-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17793\u0026wb_subscription_id=8299249374\u0026order_id=in0.2675646361\u0026abonent=971241124124","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2675646361\u0026payed=K7Ka0chJyER1wN-2FioZoFiiYi96RbEnlzVfyuoAnB5-2F4-3D\u0026apireq=K7Ka0chJyER1wN-2FioZoFiiYi96RbEnlzVfyuoAnB5-2F4-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17793\u0026wb_subscription_id=8299249374\u0026order_id=in0.2675646361\u0026abonent=971241124124","resultCode":null}
+===
+2022-03-23 18:34:19 Puma init: request: http://188.42.166.204/api/?method=link&host=aeg.games-universe.online&country=ae&operator=go4mobility_etisalat&custom=test1&key=KdhDA-2FREB-2B94-2Bpt-2B9WP7UF5msKay-2BW40ICmSG3UmZJk-3D, response: {"result":"success","url":"http:\/\/lp.games-universe.online\/aegtest1\/?ext_id=8299262610","wb_subscription_id":"8299262610","service_id":"17793","init_id":"in0.2675657025"}
+===
+2022-03-23 18:35:26 Puma init: request: http://188.42.166.204/api/?method=link&host=aeg.games-universe.online&country=ae&operator=go4mobility_etisalat&custom=test1&key=KwnF-2BsOMobjRSFV9SmWM8e-2FeUS7E336H4qEpxTkN1jE-3D, response: {"result":"success","url":"http:\/\/lp.games-universe.online\/aegtest1\/?ext_id=8299263652","wb_subscription_id":"8299263652","service_id":"17793","init_id":"in0.2675657818"}
+===
+2022-03-23 18:40:47 Puma init: request: http://188.42.166.204/api/?method=link&host=aeg.games-universe.online&country=ae&operator=go4mobility_etisalat&custom=test1&key=IQm2mDBjB-2F0tJ2-2BRyrXpLQY3-2B4-2FMorw8wg-2BqoH3wMBI-3D, response: {"result":"success","url":"http:\/\/lp.games-universe.online\/aegtest1\/?ext_id=8299268635","wb_subscription_id":"8299268635","service_id":"17793","init_id":"in0.2675661693"}
+===
+2022-03-23 18:41:43 Puma init: request: http://188.42.166.204/api/?method=link&host=aeg.games-universe.online&country=ae&operator=go4mobility_etisalat&custom=test1&key=FWN2Ip4i6tre7UrNgYhiOUkV3jTmPLjkztIbGU72CGI-3D, response: {"result":"success","url":"http:\/\/lp.games-universe.online\/aegtest1\/?ext_id=8299269406","wb_subscription_id":"8299269406","service_id":"17793","init_id":"in0.2675662325"}
+===
+2022-03-23 18:41:54 Puma init: request: http://188.42.166.204/api/?method=link&host=aeg.games-universe.online&country=ae&operator=go4mobility_etisalat&custom=test1&key=FWN2Ip4i6tre7UrNgYhiOfx7ArEH7XMWePAlEL9nTbM-3D, response: {"result":"success","url":"http:\/\/lp.games-universe.online\/aegtest1\/?ext_id=8299269584","wb_subscription_id":"8299269584","service_id":"17793","init_id":"in0.2675662463"}
+===
+2022-03-23 19:31:34 Puma init: request: http://188.42.166.204/api/?method=link&host=aeg.games-universe.online&country=ae&operator=go4mobility_etisalat&custom=test1&key=9Go3dbUHHY5Mm5IYzQAngVqMGnIPlI1JImkwsRFV3Uw-3D, response: {"result":"success","url":"http:\/\/lp.games-universe.online\/aegtest1\/?ext_id=8299312655","wb_subscription_id":"8299312655","service_id":"17793","init_id":"in0.2675693922"}
+===
+2022-03-23 19:58:50 Puma init: request: http://188.42.166.204/api/?method=link&host=aeg.games-universe.online&country=ae&operator=go4mobility_etisalat&custom=test1&key=9kc4BZU9-2FPOTUm9LudzcWzkmVIAIWrs5F3WzRhTVD-2Fc-3D, response: {"result":"success","url":"http:\/\/lp.games-universe.online\/aegtest1\/?ext_id=8299335577","wb_subscription_id":"8299335577","service_id":"17793","init_id":"in0.2675709879"}
+===
+2022-03-23 19:58:58 Puma init: request: http://188.42.166.204/api/?method=link&host=aeg.games-universe.online&country=ae&operator=go4mobility_etisalat&custom=test1&key=9kc4BZU9-2FPOTUm9LudzcWzitUo4L0ag-2Fq3LxeK-2FHpsg-3D, response: {"result":"success","url":"http:\/\/lp.games-universe.online\/aegtest1\/?ext_id=8299335712","wb_subscription_id":"8299335712","service_id":"17793","init_id":"in0.2675709969"}
+===
