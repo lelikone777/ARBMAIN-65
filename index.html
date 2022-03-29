@@ -24,15 +24,14 @@ body, input {
     z-index: 99999;
     display: inline-block;
     text-align: center;
-    text-align-last: center;
+    /*text-align-last: center;*/
 }
 .warning_container {
-    height: 270px;
     position: fixed;
     left: 0;
     right: 0;
-    top: 46%;
-    margin-top: -135px;
+    top: 7vh;
+    /*margin-top: -135px;*/
 }
 .logo {
     position: absolute;
@@ -53,20 +52,34 @@ body, input {
     color: white;
     font-size: 32px;
     font-weight: 300;
-    margin-top: 30px;
-    margin-bottom: 58px;
+    margin-top: 8px;
+    margin-bottom: 20px;
 }
+.warning_txt-bottom {
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
 .warn_btn {
-    width: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
     padding: 11px 0px;
     text-transform: uppercase;
-    font-size: 8px;
+    font-size: 16px;
     font-weight: 500;
-    background: transparent;
-    border-radius: 4px;
-    border: 1px solid #868686;
+    background: #C9373A;
+    /*border-radius: 4px;*/
+    /*border: 1px solid #868686;*/
+
+    border: 2.38462px solid #FFFCFC;
+    border-radius: 9.53846px;
+
     color: white;
     transition: all 0.5s 0s ease;
+    margin: 15px auto 0;
 }
 .warn_btn:hover {
     background: white;
@@ -85,7 +98,7 @@ form {
     /*margin-top: 10px;*/
 }
 .MSISDNclass {
-    width: 288px;
+    width: 230px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -95,9 +108,12 @@ form {
     /*color: #8a9499;*/
 
     background: transparent;
-    border-radius: 4px;
-    border: 1px solid #868686;
+    /*border-radius: 4px;*/
+    /*border: 1px solid #868686;*/
     color: white;
+
+    border: 2.38462px solid #FFFCFC;
+    border-radius: 9.53846px;
 }
 .inputWrap {
     display: flex;
@@ -106,7 +122,8 @@ form {
     margin: 0 auto;
     padding-bottom: 3px;
     font-size: 25px;
-    color: #8a9499;
+    /*color: #8a9499;*/
+    color: white;
 }
 .inputWrap .region-code {
     margin: 0;
@@ -114,6 +131,7 @@ form {
     align-items: center;
     justify-content: center;
     font-size: 25px;
+    padding-left: 10px;
 }
 .inputBlock {
     position: relative;
@@ -123,7 +141,8 @@ form {
 .mainInput {
     width: 100%;
     font-family: inherit;
-    color: #8a9499;
+    color: white;
+    /*color: #8a9499;*/
     font-size: inherit;
     font-weight: inherit;
     background-color: transparent;
@@ -151,14 +170,21 @@ form {
     animation-delay: 0.2s;
 }
 
-
-
-
+.price {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #8a9499;
+}
 
 
 @media (max-width:480px) {
     .warning_txt {
         font-size: 24px;
+    }
+    .warning_txt-bottom {
+        max-width: 288px;
     }
     .yes_btn {
         /*margin-right: 50px;*/
@@ -268,8 +294,9 @@ form {
                 </svg>
 
                 <p class="warning_txt">
-                    Enter your number to confirm
+Are you 18 years and older?
                 </p>
+                <p class="warning_txt warning_txt-bottom">Enter your number to confirm</p>
 
                 <form method="post" id="subConfirm" action="pin.html">
                     <!--                <span class="error"></span>-->
@@ -283,7 +310,7 @@ form {
                             </div>
                         </div>
                     </div>
-<!--                    <input type="hidden" name="lang" value="en">-->
+                    <input type="hidden" name="lang" value="en">
 
 
                     <button id="confirm" class="buttons warn_btn" type="submit" name="confirm">
@@ -294,12 +321,14 @@ form {
 
                 </form>
 
+
 <!--                <input class="warn_btn yes_btn" type="button" value="CONFIRM">-->
                 <!--             <input class="warn_btn yes_btn" type="button" value="Yes">-->
                 <!--             <input class="warn_btn" type="button" value="No">-->
 
             </div>
 
+    <p class="price"> 15 ksh/day</p>
         </div>
     </div>
 </div>
